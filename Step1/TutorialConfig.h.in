@@ -1,2 +1,9 @@
 // the configured options and settings for Tutorial
 // TODO 10: Define Tutorial_VERSION_MAJOR and Tutorial_VERSION_MINOR
+
+
+#cmakedefine FOO_ENABLE
+#cmakedefine FOO_DISABLE
+#cmakedefine NOONE_CARES
+#cmakedefine FOO_STRING "@FOO_STRING@"
+#cmakedefine BAR_STRING "@FOO_STRING@"
